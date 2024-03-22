@@ -1,0 +1,110 @@
+(venv) brian@PC2024:~/dev/EncodeClub/AIBootcamp/EncodeClub-AIBootcamp24Q1-Team4/Project1$ python main.py LMaGmf
+List of Ingredients:
+1. Black Perigord truffle
+2. Fleur de sel
+3. Saffron threads
+4. Wagyu beef
+5. Iberico ham
+6. Manuka honey
+7. Tahitian vanilla bean
+8. Matsutake mushroom
+9. Alba white truffle
+10. Jamón Ibérico de Bellota
+11. A5 Kobe beef
+12. Bluefin tuna
+13. Caviar (Beluga)
+14. Morel mushrooms
+15. Yuzu fruit
+
+-=-=-=-=-=-=-=-
+
+
+Get a dish that can be made with these ingredients:
+** Calling ChefGPT-LMaGmf.py:
+
+Luxury Wagyu and Caviar Burger
+
+
+
+
+-=-=-=-=-=-=-=-
+
+
+Get a recipe for this dish:
+** Calling ChefGPT-LMaGmf.py:
+
+**Luxury Wagyu and Caviar Burger Recipe**
+
+*Ingredients:*
+
+- 1 lb Wagyu beef, ground
+- 2 tablespoons olive oil
+- 4 brioche buns, split and toasted
+- ½ cup crème fraîche
+- 2 ounces premium caviar
+- 1 small red onion, finely sliced
+- 1 heirloom tomato, sliced
+- Arugula leaves, to taste
+- Sea salt and freshly ground black pepper
+- 1 teaspoon Dijon mustard (optional)
+
+*Instructions:*
+
+1. **Forming Patties:**
+   - Place the ground Wagyu in a mixing bowl. Season with a pinch of sea salt and black pepper. Gently mix, being careful not to overwork the meat, to keep the burgers juicy and tender. Divide the mixture into 4 equal parts and form into patties that are slightly larger than your buns, as they will shrink during cooking.
+
+2. **Cooking Patties:**
+   - Heat olive oil in a skillet over medium-high heat. Once hot, add the Wagyu patties. Cook for 3 to 4 minutes on one side, until a golden crust forms. Flip the burgers and cook for an additional 3 minutes for medium-rare, or longer to your preferred doneness. Rest the patties on a plate for a few minutes before assembling the burgers.
+
+3. **Burger Assembly:**
+   - On the bottom half of each toasted brioche bun, spread a small amount of crème fraîche. This acts as a moisture barrier, keeping the bun from getting soggy.
+   - Place a Wagyu patty on top of the crème fraîche for each burger.
+   - Add a dollop of Dijon mustard on top of the patty if using.
+   - Gently spoon caviar on top of the warm patty, allowing it to slightly warm through.
+   - Add a couple of slices of red onion, a slice of heirloom tomato, and a few arugula leaves.
+   - Cap with the top half of the toasted brioche bun.
+
+4. **Final Touch:**
+   - Serve immediately. The warmth of the Wagyu patty slightly warms the caviar, enhancing its flavor, while the freshness of the tomato, the spice of the arugula, and the crispiness of the onion add complexity to the burger.
+
+Enjoy your exquisite culinary creation, a luxurious twist on a classic dish that marries the rich, unique flavors of Wagyu beef and caviar with the classic components of a burger.
+
+
+
+
+-=-=-=-=-=-=-=-
+
+
+Criticize the recipe for this dish:
+** Calling ChefGPT-LMaGmf.py:
+
+Oh, darling, where do we even begin with this? Let's dissect this "Luxury Wagyu and Caviar Burger Recipe," shall we?
+
+Firstly, let's talk about your use of Wagyu beef, one of the most luxurious meats in the world, and then you just ground it up like it's some run-of-the-mill beef you picked up from a discount bin? Wagyu deserves more respect than just being formed into a patty. Its marbling and flavor nuances are best enjoyed in steaks, where they can truly shine, not hidden beneath an overwhelming heap of garnishes.
+
+Secondly, caviar on a burger? If I wanted caviar, I wouldn't mask its delicate flavor by piling it onto a greasy patty. And by topping it with caviar, you're essentially turning what could have been a symphony of flavors into a cacophonous mess. The brininess of the caviar will undoubtedly clash with the richness of the Wagyu beef, rather than complement it.
+
+Your decision to include Dijon mustard as an 'optional' addition is laughable. It's as if you're unsure about the direction of the flavor profile. If you're aiming for luxury, why include a condiment that's essentially at odds with the delicate flavors of your main components?
+
+As for brioche buns, while they are indeed a step up from your typical hamburger bun, they are still rather pedestrian in the grand scheme of luxury ingredients. Why not opt for a bun that's been specially crafted to complement the flavors of Wagyu and caviar? Perhaps something with a hint of sweetness to balance the savory depth of your burger.
+
+And finally, the addition of heirloom tomato, arugula, and red onion. It's as if you've thrown in these ingredients without considering how they'll interact with the Wagyu and caviar. The acidity from the tomato, the peppery bite of the arugula, and the sharpness of the red onion will only serve to further bury the delicate flavors you should be showcasing.
+
+**Suggested Changes:**
+
+1. **Reconsider the Burger Form:** Explore serving Wagyu in a manner that honors its quality. Perhaps a small, seared Wagyu steak atop a mini artisan bun, if you must insist on a "burger" format.
+
+2. **Caviar Serving Method:** If caviar is a must, serve it on the side as a delicacy that complements the dish, not as a topping. Let the diner enjoy its flavor unencumbered by the burger's other elements.
+
+3. **Condiments Reevaluation:** Eliminate the mustard. Introduce a spread that enhances the Wagyu's flavor without overpowering it—perhaps a truffle aioli or a butter-based sauce with subtle herbs.
+
+4. **Bun Selection:** Opt for a less dense, more refined bun option. A lightly toasted, buttery brioche that’s been delicately brushed with Wagyu fat for an added layer of flavor.
+
+5. **Rethink Your Toppings:** If you insist on adding vegetable elements, choose ones that will elevate the dish without overpowering it. A microgreen blend can replace arugula, and perhaps a thin slice of a milder variety of tomato, or even better, omit the tomato and go for a subtle pickle to add acidity without overwhelming the burger.
+
+This is your chance to create a dish that's genuinely reflective of luxury ingredients, not just throwing them together and calling it "exquisite." Rethink, refine, and respect the ingredients.
+
+
+
+
+(venv) brian@PC2024:~/dev/EncodeClub/AIBootcamp/EncodeClub-AIBootcamp24Q1-Team4/Project1$
