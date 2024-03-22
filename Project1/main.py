@@ -1,22 +1,29 @@
 import sys
+import os
 import random
 from openai import OpenAI
 import subprocess
 
-def callChefGPT(uniqueid, collected_messages_str):
-    print (f"** Calling ChefGPT-{uniqueid}.py:\n")
-    command = ["python3", f"ChefGPT-{uniqueid}.py", collected_messages_str]
-    process = subprocess.run(command, capture_output=True, text=True)
-    output = process.stdout
-    return output
-
+# Requirements of this script:
 # 7. Create a `main.py` script that will call the different scripts based on the user input
 # 8. Experiment passing a list of ingredients for one script, then ask another script for a recipe for that dish, and then criticize the recipe given by the last script with a third script
 # 9. Create a report with the results of the experiment and the different outputs of the AI chefs
 
+# Function to make call to ChefGPT Script and return output as String
+def callChefGPT(uniqueid, collected_messages_str):
+    # Get the directory of the current script
+    script_dir = os.path.dirname(os.path.abspath(__file__))+os.sep
+ 
+    print (f"** Calling ChefGPT-{uniqueid}.py:\n")
+    command = ["python3", f"{script_dir}ChefGPT-{uniqueid}.py", collected_messages_str]
+    process = subprocess.run(command, capture_output=True, text=True)
+    output = process.stdout
+    return output
+
+# Unique IDs for the team members
 team4_uniqueids = [
     # "YTZTDV", # @Max Degenhardt 
-    "4KTBAl", # @Guy Cioffi 
+    # "4KTBAl", # @Guy Cioffi 
     "LMaGmf", # @Brian Blank 
     # "0EY4BL", # Ritik Bompilwar
     # "Ton3LP", # @ckxddd 
@@ -33,9 +40,8 @@ for _ in range(3):
     else:
         userids.append(random.choice(team4_uniqueids))
 
-num_ingredients = 15
-
 # First get a random list of ingredients to pass to the first script
+num_ingredients = 15
 
 client = OpenAI()
 messages = [
