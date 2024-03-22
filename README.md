@@ -2,7 +2,32 @@
 
 ## Prerequisite
 
-Some projects in this pack require an OPENAI_API_KEY environment variable to be set prior to executing the application.  API Keys can be managed here: https://platform.openai.com/api-keys
+1. Create OPENAI_API_KEY environment variable.  API Keys can be managed here: https://platform.openai.com/api-keys
+   * Linux BASH Shell (~/.bashrc)
+     export OPENAI_API_KEY=[Your API Key Here]
+
+3. Change to the directory of the desired project.  For example, assuming Project1 (ChefGPT)
+   ```
+   cd Project1
+   ```
+4. Create Python Virtual Environment
+   ```
+   python -m venv venv
+   ```
+5. Activate Virtual Environment
+   * Windows
+     ```
+     .\venv\Scripts\Activate.ps1
+     ```
+   * Linux
+     ```
+     source ./venv/bin/activate
+     ```
+6. Install Dependencies
+   ```
+   pip install -r requirements.txt
+   ```
+
 
 ## Project 1 - ChefGPT
 
