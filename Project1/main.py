@@ -23,7 +23,7 @@ def callChefGPT(uniqueid, collected_messages_str):
 # Unique IDs for the team members
 team4_uniqueids = [
     # "YTZTDV", # @Max Degenhardt 
-    # "4KTBAl", # @Guy Cioffi 
+    "4KTBAl", # @Guy Cioffi 
     "LMaGmf", # @Brian Blank 
     # "0EY4BL", # Ritik Bompilwar
     # "Ton3LP", # @ckxddd 
