@@ -45,12 +45,22 @@ messages.append(
     }
 )
 
-dish = input("Creative cooking is my passion... Give me a dish, ingredients or a recipe and I'll tell you how to cook it:\n")
+# dish = input("Creative cooking is my passion... Give me a dish, ingredients or a recipe and I'll tell you how to cook it:\n")
 
+# messages.append(
+#     {
+#         "role": "user",
+#         "content": f"{dish}"
+#     }
+# )
+if len(sys.argv) > 1:
+    user_input = sys.argv[1]
+else:
+    user_input = input("Type the name of the dish, a set of ingredients, or a recipe for a dish:\n")
 messages.append(
     {
         "role": "user",
-        "content": f"{dish}"
+        "content": f"{user_input}"
     }
 )
 
