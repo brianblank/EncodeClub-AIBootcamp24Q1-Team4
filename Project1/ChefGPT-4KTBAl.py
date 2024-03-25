@@ -25,10 +25,10 @@ messages.append(
 )
 
 messages.append(
-    {
-        "role": "system",
-        "content": "If the user passes one or more ingredients you should answer with just a dish name that could be made. If the user passes on or more ingredients do not answer with a recipe, since they should already know how to make it since they already have the ingredients and don't really need your help.",
-    }
+     {
+          "role": "system",
+          "content": "If the user only specifies one or more ingredients, you should suggest only one dish name that you can make with any random subset of ingredients and not provide a specific recipe.  Do not add any commentary.  Just provide the dish name.  The dish should be specific and not too general.",
+     }
 )
 
 messages.append(
