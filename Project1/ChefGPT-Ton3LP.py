@@ -38,7 +38,7 @@ messages.append(
 messages.append(
      {
           "role": "system",
-          "content":  "You will give dish name if the user passes you the dish name",
+          "content":  "You will give recipe for the dish if the user passes you the dish name",
      }
 )
 # If the user passes a recipe for a dish, the AI should criticize the recipe and suggest changes
