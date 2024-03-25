@@ -24,7 +24,7 @@ messages.append(
 messages.append(
      {
           "role": "system",
-          "content":  "If the user gives you one or more ingredients, you will try to only suggest dish name",
+          "content":  "If the user gives you one or more ingredients, you will try to only suggest dish name and the dish name should be specific and not too general. Also the dish can be made of some of the ingredients",
      }
 )
 # Try to make the AI suggest the dish name only, and not the recipe at this stage
