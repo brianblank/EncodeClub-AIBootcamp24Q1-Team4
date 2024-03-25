@@ -23,10 +23,10 @@ def callChefGPT(uniqueid, collected_messages_str):
 # Unique IDs for the team members
 team4_uniqueids = [
     # "YTZTDV", # @Max Degenhardt 
-    "4KTBAl", # @Guy Cioffi 
+    # "4KTBAl", # @Guy Cioffi 
     "LMaGmf", # @Brian Blank 
     # "0EY4BL", # Ritik Bompilwar
-    # "Ton3LP", # @ckxddd 
+    "Ton3LP", # @ckxddd 
     # "kC2AZ4", # @CryptoCortez 
     "nmv94F", # @Prasanna Malla 
     # "TySKci", # @alex 
@@ -39,6 +39,7 @@ for _ in range(3):
         userids.append(sys.argv[1])
     else:
         userids.append(random.choice(team4_uniqueids))
+print(f"Selected ChefGPTs: {userids}")
 
 # First get a random list of ingredients to pass to the first script
 num_ingredients = 15
